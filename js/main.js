@@ -18,12 +18,12 @@ $('h1').on('click', function () {
 })
 
 
-$(window).on('scroll', function () {
-    console.log('스크롤 :', $(window).scrollTop())
+// $(window).on('scroll', function () {
+//     console.log('스크롤 :', $(window).scrollTop())
 
-    if ($(window).scrollTop() > 0) {
-        $('.header_scroll').addClass('on')
-    } else {
-        $('.header_scroll').removeClass('on')
-    }
-})
+//     if ($(window).scrollTop() > 0) {
+//         $('.header_scroll').addClass('on')
+//     } else {
+//         $('.header_scroll').removeClass('on')
+//     }
+// })

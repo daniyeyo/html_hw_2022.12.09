@@ -30,7 +30,7 @@
 
 .header_scroll .right {
     flex: 1;
-    text-align: right;
+    text-align: center;
 }
 
 .header_scroll {
@@ -257,13 +257,22 @@
 .models .inner {
     display: flex;
     background-color: #fff;
-
 }
 
 .models .model {
     flex: 1;
     padding: 45px 15px;
     text-align: center;
+    border-left: 1px solid #f2f1f0;
+    height: 80%;
+}
+
+.models .model:after {
+    margin: auto 0;
+}
+
+.models .model:first-child {
+    border-left: none;
 }
 
 .models .model figure {
@@ -321,7 +330,277 @@
     background: #0c2340;
     color: #fff;
     border-radius: 5px;
+    outline: 1px solid #0c2340;
 }
+
+
+
+
+
+/* Quattroporte */
+
+
+
+.Quattroporte01 {
+    background: url(../img/QP_side_3.webp)no-repeat center center/cover;
+    width: 100%;
+    height: 1000px;
+}
+
+.Quattroporte01 .content {
+    background: rgba(51, 51, 51, 0.25);
+}
+
+.Quattroporte01 .inner {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20% 0;
+    text-align: center;
+    color: #fff;
+}
+
+.Quattroporte01 h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.Quattroporte01 p {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 30px;
+}
+
+.Quattroporte01 .inner .white {
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #000;
+    background: #fff;
+    border-radius: 5px;
+    transition: 0.8s;
+}
+
+.Quattroporte01 .inner .white:hover {
+    background: #0c2340;
+    color: #fff;
+}
+
+
+
+.Quattroporte02 {
+    background: url(../img/QP_dashboard_2.webp)no-repeat center center/cover;
+    width: 100%;
+    height: 1000px;
+}
+
+.Quattroporte02 .content {
+    background: rgba(51, 51, 51, 0.25);
+    height: 0;
+}
+
+.Quattroporte02 .inner {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20% 0;
+    text-align: center;
+    color: #fff;
+}
+
+.Quattroporte02 h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.Quattroporte02 p {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 30px;
+}
+
+.Quattroporte02 .inner .white {
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #000;
+    background: #fff;
+    border-radius: 5px;
+    transition: 0.8s;
+}
+
+.Quattroporte02 .inner .white:hover {
+    background: #0c2340;
+    color: #fff;
+}
+
+
+
+/* collection */
+
+.collection .inner {
+    display: block;
+    width: 100%;
+    margin: 70px auto;
+    text-align: center;
+}
+
+.collection .title {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0 0 10px 0;
+}
+
+.collection .subtitle {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0 0 30px 0;
+}
+
+.collection .inner figure {
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.collection .inner img {
+    flex: 1;
+}
+
+
+
+
+
+/* hover */
+
+img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.hover .inner {
+    display: flex;
+    width: 100%;
+}
+
+.hover .inner figure {
+    position: relative;
+    flex: 1;
+    overflow: hidden;
+}
+
+
+.hover .inner figure .box {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.hover .inner figure:hover .box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+}
+
+
+/* .hover .inner figure:hover .box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+} */
+
+
+.hover .inner h2 {
+    display: block;
+    font-size: 36px;
+    font-weight: 400;
+    border-right: 1px solid #666;
+    padding: 0 10px 0 0;
+}
+
+
+.hover .inner p {
+    display: block;
+    padding: 0 0 0 10px;
+}
+
+
+
+
+/* drive */
+
+.drive {
+    background: #f2f1f0;
+    padding: 50px 0;
+}
+
+.drive .inner {
+    text-align: center;
+}
+
+.drive .inner i {
+    font-size: 40px;
+}
+
+.drive .inner h2 {
+    font-size: 30px;
+    margin: 30px 0 10px 0;
+}
+
+.drive .inner h3 {
+    font-size: 20px;
+    font-weight: 370;
+    margin: 0 0 20px 0;
+}
+
+.drive .inner a {
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    padding: 5px 25px;
+    background: #0c2340;
+    color: #fff;
+    border-radius: 5px;
+    transform: translate(0.8s);
+}
+
+.drive .inner a:hover {
+    background: #fff;
+    color: #0c2340;
+    transition: 0.5s;
+    outline: 1px solid #0c2340;
+}
+
+
 
 
 
